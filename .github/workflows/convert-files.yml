@@ -16,7 +16,7 @@ jobs:
       with:
         files:
           - README.md
-          - .gitignore
+          - ".gitignore"
         output: '_claude.xml'
         verbose: 'true'
     - name: Upload XML artifact
