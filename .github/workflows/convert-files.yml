@@ -20,7 +20,7 @@ jobs:
         output: '_claude.xml'
         verbose: 'true'
     - name: Upload XML artifact
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with:
         name: claude-xml
         path: _claude.xml
