@@ -14,9 +14,9 @@ jobs:
     - name: Convert files to Claude XML
       uses: jefftriplett/files-to-claude-xml-action@main
       with:
-        files:
-          - README.md
-          - ".gitignore"
+        files: |
+          README.md
+          ".gitignore"
         output: '_claude.xml'
         verbose: 'true'
     - name: Upload XML artifact
